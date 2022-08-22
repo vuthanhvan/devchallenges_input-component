@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css    ">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="body">
+        <div class="left">
+            <div class="logo" style="font-weight: bold;"><span style="color: #F7542E;">Dev</span>challenges.io</div>
+            <div class="list">
+                <ul>
+                    <li>Typography</li>
+                    <li>Grid</li>
+                    <li>Buttons</li>
+                    <li>Inputs</li>
+                </ul>
+            </div>
+        </div>
+        <div class="right">
+            <h2>Inputs</h2>
+            <div class="table">
+                <table>
+                    <tr>
+                        <td>
+                            <div class="text-black">&lt;Input /&gt;</div> <br>
+                            <div class="text-black">Lable</div>
+                            <div>
+                                <input class="border-gray" type="text" placeholder="Placeholder">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="text-gray">&:hover</div> <br>
+                            <div class="text-black">Lable</div>
+                            <div>
+                                <input class="border-black" type="text" placeholder="Placeholder">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="text-gray">&:focus</div> <br>
+                            <div class="text-blue">Lable</div>
+                            <div>
+                                <input class="border-blue" type="text" placeholder="Placeholder">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="text-black">&lt;Input error /&gt;</div> <br>
+                            <div class="text-red">Lable</div>
+                            <div>
+                                <input class="border-red" type="text" placeholder="Placeholder">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="text-gray">&:hover</div> <br>
+                            <div class="text-black">Lable</div>
+                            <div>
+                                <input class="border-black" type="text" placeholder="Placeholder">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="text-gray">&:focus</div> <br>
+                            <div class="text-red">Lable</div>
+                            <div>
+                                <input class="border-red" type="text" placeholder="Placeholder">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="text-black">&lt;Input disabled /&gt;</div> <br>
+                            <div class="text-black">Lable</div>
+                            <div>
+                                <input class="border-gray-1 bg-gray" type="text" placeholder="Placeholder">
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td>
+                            <div class="text-black">&lt;Input helperText=”Some interesting text” /&gt;</div> <br>
+                            <div class="text-black">Lable</div>
+                            <div class="input" >
+                                <input class="border-gray input-note " type="text" placeholder="Placeholder">
+                                <br>
+                                <span class=" text-note text-gray ">Some interesting text</span>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="text-black">&lt;Input helperText=”Some interesting text” error /&gt;</div> <br>
+                            <div class="text-red">Lable</div>
+                            <div  class="input">
+                                <input class="border-red input-note " type="text" placeholder="Placeholder">
+                                <br>
+                                <span class=" text-note text-red">Some interesting text</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="text-black">&lt;Input startIcon /&gt;</div> <br>
+                            <div class="text-black">Lable</div>
+                            <div class="input-icon">
+                                <input class="border-gray icon-phone " type="text" placeholder="Placeholder">
+                                <i class="fa fa-phone-alt"></i>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="text-black">&lt;Input endtIcon /&gt;</div> <br>
+                            <div class="text-black">Lable</div>
+                            <div class="input-icon">
+                                <input class="border-gray icon-pass" type="text" placeholder="Placeholder">
+                                <i class="fas fa-lock i-icon"></i>
+                            </div>
+                    <tr>
+                        <td>
+                            <div class="text-black">&lt;Input value=”text” /&gt;</div> <br>
+                            <div class="text-black">Lable</div>
+                            <div>
+                                <input class="border-black" type="text" placeholder="Text">
+                            </div>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="text-black">&lt;Input size=”sm” /&gt;</div> <br>
+                            <div class="text-black">Lable</div>
+                            <div>
+                                <input class="border-gray" type="text" placeholder="Placeholder">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="text-black">&lt;Input size=”md” /&gt;</div> <br>
+                            <div class="text-black">Lable</div>
+                            <div>
+                                <input class="border-gray" type="text" placeholder="Placeholder">
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+
+                        <div>
+                            <div class="text-black">&lt;Input fullWidth /&gt;</div> <br>
+                            <div class="text-black">Lable</div>
+                            <div >
+                                <input style="width: 80%;" class="border-gray" type="text" placeholder="Text">
+                            </div>
+                        </div>
+
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <div class="text-black">&lt;Input multiline row=”4” /&gt;</div> <br>
+                        <div class="text-black">Lable</div>
+                        <div>
+                            <input type="text" placeholder="Placeholder">
+                        </div>
+
+                    </tr>
+                </table>
+            </div>
+            <div class="footer-right">
+                <p class="text ">created by <a href=""><span>username</span></a> - devChallenges.io</p>
+            </div>
+
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>

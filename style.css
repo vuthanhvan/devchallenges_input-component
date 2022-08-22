@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    min-height: 100vh;
+}
+.left{
+    padding: 20px;
+    background: #FAFBFD;
+
+}
+.left .logo{
+    text-align: center;
+    padding: 20px;
+    font-size: 13px;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    padding: 5px 20px;
+    margin-top: 20px;
+    color: #9E9E9E;
+    font-size: 14px;
+}
+ul li:last-child{
+    font-weight: bold;
+    color: #090F31;
+}
+h2{
+    color: #4F4F4F;
+    font-size: 24px;
+    margin: 30px 50px;
+   
+}
+.table{
+    margin-left:  50px;
+    
+}
+table tr td{
+    margin-right: 50px ;
+    padding-right: 50px;
+   
+}
+table tr td div input{
+    margin-bottom: 40px;
+}
+table tr td div input .input-note{
+    margin-bottom: 5px;
+}
+table tr td .text-note{
+    font-size: 10px;
+
+}
+table tr td div .input-note{
+    margin-bottom: 5px;
+    
+}
+.input{
+    margin-bottom: 30px;
+}
+.input-note{
+    margin-bottom: 30px;
+}
+.text-note{
+    margin-bottom: 40px;
+} 
+input{
+    padding: 15px;
+    border: 1px solid ;
+    border-radius: 8px ;
+    margin-bottom: 20px;
+}
+.footer-right{
+    padding: 30px 50px;
+}
+.footer-right .text{
+    font-size: 14px;
+    color: #9E9E9E;
+}
+.footer-right .text a{
+    font-weight: bold;
+    color:  #9E9E9E;
+}
+.text-black{
+    color: #333333;
+}
+.text-gray{
+    color: #828282;
+}
+.text-blue{
+    color: #2962FF;
+}
+.text-red{
+    color: #D32F2F;
+}
+.border-gray{
+    border: 1px solid #828282;
+}
+.border-gray-1{
+    border: 1px solid #E0E0E0;
+}
+.border-black{
+    border: 1px solid #333333;
+}
+.border-blue{
+    border: 1px solid #2962FF;
+}
+.border-red{
+    border: 1px solid #D32F2F;
+}
+.bg-gray{
+    background: #F2F2F2;
+}
+.input-icon  input[type="text"] {
+    padding-left: 35px;
+}
+.input-icon{
+    position: relative;
+}
+.input-icon i{
+    position: absolute;
+    left:0;
+    top: 6px;
+    padding: 9px 10px;
+    color: #828282;
+}
+.input-icon .i-icon{
+    padding-left: 185px ;
+}
